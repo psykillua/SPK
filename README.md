@@ -1,2 +1,2 @@
 # spk
-UTS SPK
+MATAKULIAH SPK
