@@ -1,4 +1,3 @@
-
 from http import HTTPStatus
 from flask import Flask, request, abort
 from flask_restful import Resource, Api 
@@ -6,7 +5,6 @@ from models import Komputer as KomputerModel
 from engine import engine
 from sqlalchemy import select
 from sqlalchemy.orm import Session
-from tabulate import tabulate
 
 session = Session(engine)
 
